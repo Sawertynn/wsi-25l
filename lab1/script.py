@@ -57,7 +57,7 @@ for fun, grad in clumped:
         fig.colorbar(pcm, ax=axes[idx])
 
         axes[idx].plot(
-            trajectory[:, 0], trajectory[:, 1], marker=".", color="red", alpha=0.2
+            trajectory[:, 0], trajectory[:, 1], marker=".", color="red", alpha=0.25
         )
 
         axes[idx].set_aspect(1.0)
